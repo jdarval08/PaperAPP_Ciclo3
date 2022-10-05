@@ -20,6 +20,8 @@ USE `PaperAPP_Ciclo3_DB` ;
 CREATE TABLE IF NOT EXISTS `PaperAPP_Ciclo3_DB`.`table1` (
   `idProducto` INT NOT NULL,
   `nombre` VARCHAR(45) NOT NULL,
+  `precio` DOUBLE NOT NULL,
+  `disponibilidad` INT NOT NULL,
   PRIMARY KEY (`idProducto`))
 ENGINE = InnoDB;
 
